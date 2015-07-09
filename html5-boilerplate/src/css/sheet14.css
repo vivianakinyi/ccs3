@@ -1,12 +1,18 @@
+ div.container {
+	background-color: #ADD;
+	transition: background-color 2s;
+}
+div:hover { background-color: #BAD; }
+
  .transition {
-border: 1px solid black;
-height: 250px;
-padding: 10px;
+	border: 1px solid black;
+	height: 250px;
+	padding: 10px;
 }
 h1 {
-font: bold 300%/250px ChunkFiveRegular, serif;
-text-align: center;
--webkit-transition: font-size 2s ease-out 250ms;
-transition: font-size 2s ease-out 250ms;
+	font: bold 300%/250px ChunkFiveRegular, serif;
+	text-align: center;
+	-webkit-transition: font-size 2s ease-out 250ms;
+	transition: font-size 2s ease-out 250ms;
 }
 h1:hover { font-size: 1200%; }

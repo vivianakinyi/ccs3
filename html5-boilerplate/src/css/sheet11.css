@@ -3,7 +3,7 @@ h1 {background-image: linear-gradient(240deg, black, white);
 
 
 
-div {border:2px solid black; margin:2em 3em; height: 200px;}
-div.gradient-1 {background-image: radial-gradient(black, white);}
+div {border:2px solid black; margin:2em 3em; height: 400px;}
+div.gradient-1 {background-image: radial-gradient(#ADD, #BAD);}
 
-div.gradient2 {background-image: repeating-radial-gradient(circle, black, white 20%);}
+div.gradient2 {background-image: repeating-radial-gradient(#ADD, #BAD, white 20%);}

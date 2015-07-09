@@ -1,0 +1,23 @@
+div { height: 400px; background-color: #BAD }
+
+div.screen{
+background-color: transparent;
+background-blend-mode: screen;
+background-repeat: no-repeat;
+background: url('../img/arundel.jpg') no-repeat 50% 50% / cover #DCD;
+height: 150px;
+}
+div.multiply{
+background-color: transparent;
+background-blend-mode: multiply;
+background-repeat: no-repeat;
+background: url('../img/arundel.jpg') no-repeat 50% 50% / cover #BAD;
+height: 150px;
+}
+div.overlay{
+background-color: transparent;
+background-blend-mode: overlay;
+background-repeat: no-repeat;
+background: url('../img/arundel.jpg') no-repeat 50% 50% / cover #BDA;
+height: 150px;
+}

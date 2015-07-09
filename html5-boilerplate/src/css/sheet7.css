@@ -1,4 +1,4 @@
-
+img { width: 150px; height: 150px;}
 div[class*='-1'] { -moz-column-count: 2; }
 div[class*='-2'] { -moz-column-count: 3; -moz-column-gap: 2em;
 	-moz-column-rule: 0.3em double silver;}

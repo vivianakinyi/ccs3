@@ -1,0 +1,56 @@
+div {
+	
+	
+}
+
+div.rounded {
+background-color: #ABD;
+width: 300px;
+height: 200px;
+float: left;
+border-top-left-radius: 10px 20px;
+border-top-right-radius: 10px 20px;
+border-bottom-right-radius: 10px 20px;
+border-bottom-left-radius: 10px 20px;
+box-shadow: 12px 12px 2px -6px;
+}
+
+ .radius-1 {
+width: 300px;
+height: 200px;
+float: right;
+background-color: #DDD;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+
+div.circle {
+float: right;
+border-radius: 50%;
+margin-left: 2em;
+height: 300px;
+width: 300px;
+background-color: #ADD;
+box-shadow: #999 4px -4px 2px 0; 
+
+}
+
+div.eclipse {
+float: right;
+border-radius: 50%;
+height: 300px;
+width: 400px;
+background-color: #BAD; 
+box-shadow: 4px 4px 3px;
+}
+
+div.clear {clear: both;}
+
+div.border-image{
+background-color: #DDD;
+border: 34px 10px;
+border-image-slice: 34;
+border-image-source: url('../img/back1.jpeg');
+}

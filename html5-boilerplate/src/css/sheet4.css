@@ -1,4 +1,4 @@
-article {border-width: 100%; background-color: #E1E8ED;
+article {border-width: 100%; background-color: #E1E8ED;}
 
 h1 { text-shadow: 3px 3px #BBB; }
 
@@ -9,7 +9,7 @@ p:nth-*(odd){font-style: italic;}
 
 tr {border-collapse: collapse;}
 
-table tr:nth-of-type(even) { background-color: gray;  }
+tbody tr:nth-child(odd) { background-color: gray;  }
 
 h1:first-child { text-decoration: underline; font-size: 20px; }
 p:last-child { font-style: italic; }
@@ -20,7 +20,7 @@ p:only-child {text-decoration: underline;}
 div.comment{border:solid black;}
 .comment:target { background-color: #E0BA5A;; }
 
-td:empty { background-color: #DDD;; }
+td:empty { background-color: #ADD;; }
 
 input[type='text']:disabled { border: 1px dotted gray; }
 input[type='text']:enabled { border: 1px solid black; }

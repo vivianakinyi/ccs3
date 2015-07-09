@@ -1,0 +1,22 @@
+/*{ transform: rotate3d(1,1,0,45deg); }
+h1 {transform: translateZ(-40px);}*/
+
+ .preserve {
+-webkit-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+.d3-child {
+-webkit-transform: rotateY(45deg);
+transform: rotateY(45deg);
+}
+.inner {
+background-color: silver;
+-webkit-transform: translateZ(40px);
+transform: translateZ(40px);
+-webkit-transition: transform 1s;
+transition: transform 1s;
+}
+.d3-parent:hover .inner {
+-webkit-transform: none;
+transform: none;
+}

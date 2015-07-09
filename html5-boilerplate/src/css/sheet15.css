@@ -1,0 +1,28 @@
+div.container {
+	display: flex;
+	flex-direction:row-reverse;
+
+	 }
+}
+#a {
+	/*border: 20px 15px solid gray;*/
+	width: 150px;
+	height: 200px;
+	background-color: #DDA;
+	float:left;
+	flex-grow:1;
+}
+#b {
+	width: 150px;
+	height: 200px;
+	background-color: #ADD;
+	float: right;
+}
+#c {
+	width: 150px;
+	height: 200px;
+	background-color: #ABD;
+	float: right;
+}
+
+
