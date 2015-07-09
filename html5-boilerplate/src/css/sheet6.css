@@ -1,0 +1,12 @@
+h1 {text-shadow: 3px 3px 3px #BBB;}
+h2 {text-shadow: -5px 2px #BBB;}
+
+h3 {
+text-shadow:
+0 -2px 3px #FFF,
+0 -4px 3px #AAA,
+0 -6px 6px #666,
+0 -8px 9px #000;
+}
+
+p {text-shadow:1px 0px }

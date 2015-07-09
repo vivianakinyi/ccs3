@@ -1,0 +1,19 @@
+
+a[href^='http'] {
+background: url('../img/images.png') no-repeat left center;
+display: inline-block;
+padding-left: 20px;
+}
+
+a[href$='.pdf'] {
+	background: url('..img/images.png') no-repeat left center;
+display: inline-block;
+padding-left: 20px;
+}
+
+a[href*='.pdf'] {
+	background-image: url("../img/images.png");
+}
+
+h4 + p {font-weight: bolder;font-style: normal;}
+h4 ~ p {font-weight: bold; font-style:italic; }
